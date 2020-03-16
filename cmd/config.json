@@ -1,0 +1,10 @@
+{
+"room": "office",
+"hubitat_update": "http://192.168.1.210/apps/api/8/devices/%s/setlocation/%s?access_token=25f4a106-58f0-4dc9-b00a-cd4b5fc69a73",
+"devices": { 
+  "E0:33:8E:B5:3A:D0": { 
+      "name": "Robs Iphone",
+      "hubitat_device": "2251"
+  }    
+ }
+}

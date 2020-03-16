@@ -1,0 +1,13 @@
+[Unit]
+Description=Device presence Server
+After=network.target
+
+[Service]
+Type=simple
+# Another Type option: forking
+ExecStart=/usr/local/bin/btpresence
+Restart=always
+# Other Restart options: or always, on-abort, etc
+
+[Install]
+WantedBy=multi-user.target
